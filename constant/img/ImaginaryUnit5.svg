@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+! TITLE:        ImaginaryUnit5.svg
+! AUTHOR:       David R. Tribble (commons.wikimedia.org/wiki/User:Loadmaster)
+! CREATED:      2010-03-09
+! PERMISSIONS:  Licensed under GFDL and Commons Share and Share-Alike licenses
+!-->
+<svg version="1.0"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="-112 -112 +113 +113"
+   width="480" height="480">
+
+  <title>Imaginary Unit</title>
+  <desc>Imaginary unit in the complex or cartesian plane.</desc>
+
+<g transform="scale(0.5 0.5) translate(-110 -110)"
+    font-family="Georgia,Palatino,Tahoma,Constantia,Nina,Consolas,Trebuchet,Times,Arial"
+    font-size="12px">
+
+  <!-- Unit circle -->
+  <circle cx="0" cy="0" r="70"
+    stroke="#C0C0C0" fill="none" style="stroke-dasharray:1,1;"/>
+
+  <!-- X axis -->
+  <line x1="-110" y1="0" x2="110" y2="0"
+    stroke="#000000" fill="#000000"/>
+  <path d="M -101 -3 -111 0 -101 3 Z" fill="#000000"/>
+  <path d="M +101 -3 +111 0 +101 3 Z" fill="#000000"/>
+
+  <!-- Y axis -->
+  <line x1="0" y1="-110" x2="0" y2="110"
+    stroke="#000000" fill="#000000"/>
+  <path d="M -3 -101 0 -111 3 -101 Z" fill="#000000"/>
+  <path d="M -3 +101 0 +111 3 +101 Z" fill="#000000"/>
+
+  <!-- Point (0,0) -->
+  <circle cx="0" cy="0"  r="1.75"
+    stroke="none" fill="#000000"/>
+  <text x="5" y="12">
+    0 </text>
+
+  <!-- Point (0,+i) -->
+  <circle cx="0" cy="-70"  r="2.75"
+    stroke="none" fill="#000000"/>
+  <text x="5" y="-75"
+    font-style="italic"> +i </text>
+
+  <!-- Point (0,-i) -->
+  <circle cx="0" cy="70" r="1.75"
+    stroke="none" fill="#000000"/>
+  <text x="5" y="80"
+    font-style="italic"> &#x2212;i </text>
+
+  <!-- Point (-1,0) -->
+  <circle cx="-70"  cy="0" r="1.75"
+    stroke="none" fill="#000000"/>
+  <text x="-87" y="12">
+    &#x2212;1 </text>
+
+  <!-- Point (+1,0) -->
+  <circle cx="70" cy="0" r="1.75"
+    stroke="none" fill="#000000"/>
+  <text x="73" y="12">
+    +1 </text>
+</g>
+
+</svg>
